@@ -8,8 +8,8 @@ class PostList extends Component {
       {
         id: 1,
         author: {
-          name: 'Diego Cabral',
-          avatar: 'https://i.pravatar.cc/150?img=1',
+          name: 'Amanda Cabral',
+          avatar: 'https://i.pravatar.cc/150?img=47',
         },
         date: '20 sep 2019',
         content: 'Pessoal, alguém sabe se a Rocketseat está contratando?',
@@ -30,7 +30,7 @@ class PostList extends Component {
         id: 3,
         author: {
           name: 'Felipe Menezes',
-          avatar: 'https://i.pravatar.cc/150?img=8',
+          avatar: 'https://i.pravatar.cc/150?img=70',
         },
         date: '21 sep 2019',
         content:
@@ -40,7 +40,7 @@ class PostList extends Component {
             id: 4,
             author: {
               name: 'Juliana Garcia',
-              avatar: 'https://i.pravatar.cc/150?img=5',
+              avatar: 'https://i.pravatar.cc/150?img=28',
             },
             date: '22 sep 2019',
             content:
@@ -99,7 +99,7 @@ class PostList extends Component {
     return (
       <div className="postlist">
         {posts.map(post => (
-          <Post Key={post.id} {...post} />
+          <PostItem Key={post.id} {...post} />
         ))}
       </div>
     );

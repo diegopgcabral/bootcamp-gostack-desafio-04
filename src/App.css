@@ -15,11 +15,11 @@ body,
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #f5f2fe;
+  background: #acb4c2;
 }
 
 header {
-  background: #e94808;
+  background: #051f3d;
   display: flex;
   justify-content: center;
 }
@@ -30,17 +30,17 @@ header nav {
   align-items: center;
   height: 64px;
   padding: 0 42px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   min-width: 980px;
   font-size: 14px;
 }
 
 nav img {
-  height: 24px;
+  height: 40px;
 }
 
 nav > span {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -50,20 +50,20 @@ nav > div {
 }
 
 nav > div i {
-  margin-left: 8px;
+  margin-left: 10px;
 }
 
 .postlist {
-  width: 700px;
+  width: 900px;
   margin: 0 auto 20px;
 }
 
 .post {
   margin-top: 20px;
   border-radius: 8px;
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 20px;
-  color: #3e3e3e;
+  color: #0e0d0d;
   line-height: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -105,7 +105,7 @@ nav > div i {
 .divider {
   width: 100%;
   height: 1px;
-  background: #eeeeee;
+  background: #113d75;
 }
 
 .post-comments {
@@ -119,7 +119,7 @@ nav > div i {
 
 .comment p {
   border-radius: 20px;
-  background: #eeeeee;
+  background: #7383b6;
   margin-left: 10px;
   padding: 15px;
   font-size: 13px;
