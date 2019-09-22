@@ -24,6 +24,16 @@ class PostList extends Component {
             content:
               'A Rocketseat está sempre em busca de novos membros para o time, e geralmente ficamos de olho em quem se destaca no Bootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando vídeos e criando posts, pode me chamar no Discord! (Sério, me chamem mesmo, esse comentário é real)',
           },
+          {
+            id: 2,
+            author: {
+              name: 'Diego Fernandes',
+              avatar: 'https://avatars2.githubusercontent.com/u/2254731?v=4',
+            },
+            date: '20 sep 2019',
+            content:
+              'A Rocketseat está sempre em busca de novos membros para o time, e geralmente ficamos de olho em quem se destaca no Bootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando vídeos e criando posts, pode me chamar no Discord! (Sério, me chamem mesmo, esse comentário é real)',
+          },
         ],
       },
       {

@@ -33,6 +33,7 @@ header nav {
   color: rgb(255, 255, 255);
   min-width: 980px;
   font-size: 14px;
+  font-weight: bold;
 }
 
 nav img {
@@ -49,7 +50,7 @@ nav > div {
   align-items: center;
 }
 
-nav > div i {
+nav > div img {
   margin-left: 10px;
 }
 

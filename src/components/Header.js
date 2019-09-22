@@ -7,7 +7,7 @@ function Header() {
         <img src="https://i.imgur.com/KDIDiSE.png" />
         <div>
           <span>Meu Perfil</span>
-          <i className="material-icons">account_circle</i>
+          <img className="avatar" src="https://i.pravatar.cc/150?img=11" />
         </div>
       </nav>
     </header>
